@@ -1,1 +1,1 @@
-# rsschool-cv
+https://bedysdn.github.io/rsschool-cv/cv
