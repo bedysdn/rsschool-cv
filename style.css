@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  background-color: ghostwhite;
+}
+
+.header{
+  background-color: black;
+  padding: 33px 0 32px;
+
+}
+
+.contacts{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.contacts__item{
+  display: inline-block;
+}
+
+
+.contacts__link{
+  color: gray;
+  text-decoration: none;
+  font-size: 18px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.contacts__link:hover{
+  transform: translateX(10px);
+  filter: blur(0.5px);
+}
+
+
+.myphoto{
+  border-radius: 30%;
+}
+
+
+.info{
+  padding-top: 51px;
+  padding-bottom: 59px;
+  text-align: center;
+}
+
+h3{
+  font-size: 19px;
+  color: gray;
+}
+
+.information{
+  text-align: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.about__info{
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.footer{
+  background-color: gray;
+  height: 50px;
+  }
+
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.githublink{
+  color: black;
+  text-decoration: none;
+}
